@@ -1,19 +1,20 @@
 <b> Pet-Shelter-API </b>
 
 <p>This application built in Express in Node.js and provide three RESTful JSON API endpoints includes GetAllPets, GetPet by ID, Add New Pet. 
-Go to Command Prompt: <br/> Install npm – Node Package Manager <br/>
-Install Node.js    </p>
-Be sure to restart your command line terminal. Now you should be able to run npm and node:
-npm  --version
-node --version
-Let’s start by initializing project: npm init
-Let’s just press “Enter” on every question to accept the defaults. This will create a file called package.json, which will include all of the project’s packages we need to run our API
-Let’s install Express with npm:
-npm install express body-parser morgan
-We also need to install body-parser and morgan so that Express can accept JSON and provide logging
-Let’s write some Javascript that will initialize and define our endpoints for GET, GET by ID and POST methods. 
-We will plan for our URL endpoint to look like this:
-GET ALL http://www.ourapi.com/pets    This will get all pets
-GET     http://www.ourapi.com/pets/1    This will get pets information for pet 1
-POST    http://www.ourapi.com/pets/add/new       This will create a new pet 
-We can test our API  using the PostMan REST client 
+<br/>Go to Command Prompt: 
+<br/> Install npm – Node Package Manager 
+<br/> Install Node.js    
+<br/> Be sure to restart your command line terminal. Now you should be able to run npm and node:
+<br/> npm  --version
+<br/> node --version
+<br/>Let’s start by initializing project: npm init
+<br/>Let’s just press “Enter” on every question to accept the defaults. This will create a file called package.json, which will include all of the project’s packages we need to run our API
+<br/>Let’s install Express with npm:
+<br/>npm install express body-parser morgan
+<br/>We also need to install body-parser and morgan so that Express can accept JSON and provide logging
+<br/>Let’s write some Javascript that will initialize and define our endpoints for GET, GET by ID and POST methods. 
+<br/>We will plan for our URL endpoint to look like this:
+<br/>GET ALL http://www.ourapi.com/pets    This will get all pets
+<br/>GET     http://www.ourapi.com/pets/1    This will get pets information for pet 1
+<br/>POST    http://www.ourapi.com/pets/add/new       This will create a new pet 
+<br/>We can test our API  using the PostMan REST client 
