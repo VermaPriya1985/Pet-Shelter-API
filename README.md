@@ -1,7 +1,7 @@
-#<b> Pet-Shelter-API </b>
+<b> Pet-Shelter-API </b>
 
 <p>This application built in Express in Node.js and provide three RESTful JSON API endpoints includes GetAllPets, GetPet by ID, Add New Pet. 
-Go to Command Prompt: Install npm – Node Package Manager
+Go to Command Prompt: <br/> Install npm – Node Package Manager <br/>
 Install Node.js    </p>
 Be sure to restart your command line terminal. Now you should be able to run npm and node:
 npm  --version
